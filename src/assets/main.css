@@ -1,0 +1,86 @@
+:root {
+  /* colors */
+  --c-primary: #eb5440;
+
+  --c-secondary: #4a4b4c; /* text and headings */
+
+  --c-tertiary-light: #e8e8e8; /* backgrounds and borders */
+  --c-tertiary-dark: #c3c3c3; /* not active icons */
+
+  --c-bg-1: #f6f6f6; /* main bg color */
+  --c-bg-2: #ffffff; /* element bg color */
+
+  --c-hyperlink: #067bc2;
+  --c-input-focus: #eb5440;
+
+  /* typography */
+  --font-headers: "Montserrat", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+}
+
+/* global */
+body {
+  font-family: var(--font-body);
+  background-color: var(--c-bg-1);
+  color: var(--c-secondary);
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-headers);
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 22px;
+}
+
+button {
+  font-family: var(--font-headers);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* mobile layout */
+@media (max-width: 768px) {
+  body {
+    padding-top: 0;
+    padding-bottom: 80px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  input,
+  select,
+  textarea,
+  label {
+    font-size: 12px;
+  }
+}
