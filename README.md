@@ -4,7 +4,7 @@
 
 git clone repository-url
 
-cd opdracht_roc
+cd house_listings
 
 ### 2. Install Dependencies
 
@@ -16,13 +16,13 @@ Create a `.env.local` file in the root directory:
 
 VITE_API_URL=https://localhost:3001
 
-**Note:** If you don't have an API key, the app has fallback defaults built in.
-
 ### 4. Start Development Server
 
 npm run dev
+npm run backend
 
 The app will be available at `http://localhost:8080`
+backend will be available at `http://localhost:3001`
 
 ## Available Scripts
 
@@ -37,3 +37,7 @@ npm run build
 ### Preview Production Build
 
 npm run preview
+
+### Backend build
+
+npm run backend

@@ -140,7 +140,7 @@ export default createStore({
         const body = createHouseFormData(updates);
 
         const response = await fetch(`${API_URL}/houses/${id}`, {
-          method: "POST",
+          method: "PUT",
           body: JSON.stringify(body),
           headers: {
             "Content-Type": "application/json",

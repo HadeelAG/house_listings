@@ -5,7 +5,7 @@
   >
     <div class="image-container">
       <img
-        src="@/assets/images/img_placeholder_house.png"
+        :src="`/images/img_placeholder_house_${Math.floor(Math.random() * 7) + 1}.png`"
         alt="Placeholder house image"
         class="house-image"
       />

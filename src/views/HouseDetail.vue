@@ -5,7 +5,7 @@
     </div>
     <div class="mobile-header mobile-only">
       <img
-        src="@/assets/images/img_placeholder_house.png"
+        :src="`/images/img_placeholder_house_${Math.floor(Math.random() * 7) + 1}.png`"
         class="mobile-hero-img"
       />
       <div class="mobile-actions">
@@ -25,7 +25,9 @@
     <div class="container detail-container">
       <div class="detail-card">
         <div class="image-section desktop-only">
-          <img src="@/assets/images/img_placeholder_house.png" />
+          <img
+            :src="`/images/img_placeholder_house_${Math.floor(Math.random() * 7) + 1}.png`"
+          />
         </div>
         <div class="info-section">
           <div class="info-header">

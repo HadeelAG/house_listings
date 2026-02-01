@@ -295,7 +295,6 @@
       "madeByMe": true
     },
     {
-      "id": 19323,
       "price": 1500,
       "rooms": {
         "bedrooms": 3,
@@ -304,16 +303,36 @@
       "size": 10,
       "description": "test",
       "location": {
-        "street": "Oud Heinstraatest",
+        "street": "Oud Heinstraatest dada",
         "houseNumber": 23,
-        "houseNumberAddition": null,
         "city": "Amsterdam",
         "zip": "1012 TS"
       },
-      "createdAt": "2025-12-21",
+      "createdAt": "2026-01-31",
       "constructionYear": 2022,
       "hasGarage": false,
-      "madeByMe": true
+      "madeByMe": true,
+      "id": 19323
+    },
+    {
+      "price": 11222,
+      "rooms": {
+        "bedrooms": 2,
+        "bathrooms": 2
+      },
+      "size": 2,
+      "description": "sdfgsds",
+      "location": {
+        "street": "Oud Heinstraat hh",
+        "houseNumber": 23,
+        "city": "Amsterdam",
+        "zip": "1235 HG"
+      },
+      "createdAt": "2026-01-31",
+      "constructionYear": 2000,
+      "hasGarage": false,
+      "madeByMe": true,
+      "id": 19324
     }
   ]
 }
