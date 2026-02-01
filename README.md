@@ -14,7 +14,7 @@ npm install
 
 Create a `.env.local` file in the root directory:
 
-VITE_API_URL=https://localhost:3001
+VITE_API_URL=http://localhost:3001
 
 ### 4. Start Development Server
 
