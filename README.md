@@ -18,7 +18,12 @@ VITE_API_URL=https://localhost:3001
 
 ### 4. Start Development Server
 
+in one terminal run:
+
 npm run dev
+
+and in the other:
+
 npm run backend
 
 The app will be available at `http://localhost:8080`
